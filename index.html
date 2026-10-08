@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandhiya R | Entry-Level Portfolio | Computer Science & Engineering</title>
+  <meta name="description" content="Professional portfolio of Sandhiya R, an entry-level Computer Science & Engineering student with hands-on experience in AI tools, prompt engineering, and web development.">
+  <meta name="author" content="Sandhiya R">
+
+  <!-- Open Graph / Meta for Social & LinkedIn sharing -->
+  <meta property="og:title" content="Sandhiya R - Professional Portfolio">
+  <meta property="og:description" content="Entry-level Computer Science engineer with expertise in AI tools, prompt engineering, front-end web development, and IoT.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand" aria-label="Sandhiya R Home">
+        <span class="nav-logo-badge">SR</span>
+        <span>Sandhiya R</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Theme Toggle (Light / Dark) -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <span id="theme-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Direct Resume Download Button in Nav -->
+        <a href="assets/Sandhiya_R_Resume.pdf" download="Sandhiya_R_Resume.pdf" class="nav-btn-resume" title="Download Sandhiya R Resume (PDF)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open Navigation Menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         HERO SECTION (HOME)
+         ========================================================================= -->
+    <section class="section hero-section" id="home">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-grid">
+        
+        <!-- Left: Introduction -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="badge-pulse"></span>
+            <span>Fresher • Entry-Level Candidate • Available for Hire</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Sandhiya R</span>
+          </h1>
+
+          <p class="hero-tagline">
+            B.E. Computer Science & Engineering (Batch 2026) | AI Tools & Web Development
+          </p>
+
+          <p class="hero-description">
+            Motivated professional with hands-on experience using <strong>ChatGPT, Gemini, and Claude</strong> for research, analysis, content creation, and problem-solving. Interested in <strong>prompt engineering</strong> and eager to apply AI tools effectively in real-world business tasks.
+          </p>
+
+          <!-- Primary CTA Buttons -->
+          <div class="hero-actions">
+            <a href="assets/Sandhiya_R_Resume.pdf" download="Sandhiya_R_Resume.pdf" class="btn btn-primary" id="hero-download-resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Contact Me</span>
+            </a>
+
+            <a href="#projects" class="btn btn-outline">
+              <span>View Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Quick Contact Strip -->
+          <div class="hero-contact-strip">
+            <span class="hero-contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Tirupur, Tamil Nadu</span>
+            </span>
+
+            <a href="mailto:rsandhiya524@gmail.com" class="hero-contact-item" title="Send email">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>rsandhiya524@gmail.com</span>
+            </a>
+
+            <a href="tel:+919344561265" class="hero-contact-item" title="Call">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>+91 93445 61265</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Profile Snapshot Card -->
+        <div class="hero-card">
+          <div class="hero-avatar-wrapper">
+            <div class="hero-avatar">SR</div>
+            <div class="hero-profile-meta">
+              <h3>Sandhiya R</h3>
+              <p>Entry-Level Professional</p>
+              <div class="badge badge-fresher" style="margin-top: 0.35rem;">B.E. CSE • Class of 2026</div>
+            </div>
+          </div>
+
+          <div class="profile-stat-grid">
+            <div class="profile-stat-box">
+              <div class="profile-stat-label">College</div>
+              <div class="profile-stat-value">Jaishriram Engg. College</div>
+            </div>
+            <div class="profile-stat-box">
+              <div class="profile-stat-label">Graduation</div>
+              <div class="profile-stat-value">May 2026</div>
+            </div>
+            <div class="profile-stat-box">
+              <div class="profile-stat-label">Specialization</div>
+              <div class="profile-stat-value">AI Tools & Web Dev</div>
+            </div>
+            <div class="profile-stat-box">
+              <div class="profile-stat-label">Location</div>
+              <div class="profile-stat-value">Tirupur, TN</div>
+            </div>
+          </div>
+
+          <div class="hero-card-footer">
+            <span style="font-weight: 500; color: var(--text-muted);">Connect with me:</span>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/sandhiya-r" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn: Sandhiya R" aria-label="LinkedIn profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+
+              <a href="https://github.com/sandhiya-manikam-2005" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub: sandhiya-manikam-2005" aria-label="GitHub profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+
+              <a href="mailto:rsandhiya524@gmail.com" class="social-icon-btn" title="Email Sandhiya" aria-label="Email link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         ABOUT ME SECTION
+         ========================================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Candidate Profile</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            A focused Computer Science student preparing to transition academic and practical foundations into industry contributions.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Background & Objective -->
+          <div class="about-text-card">
+            <h3>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              Career Objective & Background
+            </h3>
+
+            <div class="about-quote">
+              "Motivated professional with hands-on experience using ChatGPT, Gemini, and Claude for research, analysis, content creation, and problem-solving. Interested in prompt engineering and eager to apply AI tools effectively in real-world business tasks."
+            </div>
+
+            <p class="about-paragraph">
+              I am currently pursuing my <strong>B.E. in Computer Science and Engineering</strong> at Jaishriram Engineering College in Tirupur, with expected graduation in <strong>May 2026</strong>. Prior to my degree, I completed my HSC (2022) and SSLC (2020) at Gandhi Vidhyalaya Matriculation School, Tirupur.
+            </p>
+
+            <p class="about-paragraph">
+              As an entry-level candidate, I bring a unique blend of core technical skills in web technologies (HTML, CSS, JavaScript, React JS, SQL, Java) alongside strong practical fluency with state-of-the-art AI tooling and structured prompt engineering.
+            </p>
+          </div>
+
+          <!-- Right: Key Highlights directly from Resume -->
+          <div class="about-features-grid">
+            <div class="about-feature-item">
+              <div class="feature-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                </svg>
+              </div>
+              <div class="feature-body">
+                <h4>Hands-On AI & Prompting Fluency</h4>
+                <p>Skilled in structured, role-based, and iterative prompt design across ChatGPT, Gemini, Claude, and Copilot for coding, research, and analysis.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-item">
+              <div class="feature-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="feature-body">
+                <h4>Front-End & Responsive Web Exposure</h4>
+                <p>Hands-on internship experience at Sparkout Tech Solutions in front-end development and building responsive web layouts.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-item">
+              <div class="feature-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <div class="feature-body">
+                <h4>Practical InPlant Industrial Trainings</h4>
+                <p>Industrial exposure across BrainerySpot Technology, NXTLogics Solutions, and Nitroware Technology in web and full-stack development.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SKILLS SECTION
+         ========================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Skills & Capabilities</h2>
+          <p class="section-subtitle">
+            Authentic skillset extracted directly from resume, highlighting AI capabilities, technical programming, and productivity tools.
+          </p>
+        </div>
+
+        <div class="skills-categories">
+          <!-- Category 1: AI Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+                  <path d="M12 6v6l4 2"></path>
+                </svg>
+              </div>
+              <h3>AI Tools</h3>
+            </div>
+            <div class="skill-tag-cloud">
+              <span class="skill-pill">ChatGPT</span>
+              <span class="skill-pill">Google Gemini</span>
+              <span class="skill-pill">Claude</span>
+              <span class="skill-pill">Microsoft Copilot</span>
+              <span class="skill-pill">Perplexity</span>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: auto;">
+              Proficient in utilizing major LLM platforms for technical problem-solving, document analysis, and productivity.
+            </p>
+          </div>
+
+          <!-- Category 2: Prompting Techniques -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <h3>Prompt Engineering</h3>
+            </div>
+            <ul class="skill-checklist">
+              <li class="skill-checklist-item">
+                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Writing clear, structured prompts</span>
+              </li>
+              <li class="skill-checklist-item">
+                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Role-based and step-by-step prompting</span>
+              </li>
+              <li class="skill-checklist-item">
+                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Refining prompts when initial output needs iteration</span>
+              </li>
+              <li class="skill-checklist-item">
+                <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Reusable prompt templates</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Using AI For (Practical Applications) -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <h3>AI Applications in Tasks</h3>
+            </div>
+            <div class="skill-tag-cloud">
+              <span class="skill-pill">Web Research</span>
+              <span class="skill-pill">PDF Summarizing</span>
+              <span class="skill-pill">Excel/CSV Help</span>
+              <span class="skill-pill">Email & Content Drafting</span>
+              <span class="skill-pill">Data Extraction</span>
+              <span class="skill-pill">Translation</span>
+              <span class="skill-pill">Coding Help</span>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: auto;">
+              Experienced in augmenting everyday business workflows and developer tasks using targeted AI workflows.
+            </p>
+          </div>
+
+          <!-- Category 4: Technical Skills -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3>Technical & Development</h3>
+            </div>
+            <div class="skill-tag-cloud">
+              <span class="skill-pill">HTML</span>
+              <span class="skill-pill">CSS</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">React JS</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">Java</span>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: auto;">
+              Core Computer Science foundation spanning front-end web engineering, object-oriented Java, and relational database queries.
+            </p>
+          </div>
+
+          <!-- Category 5: Office Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3>Office & Productivity</h3>
+            </div>
+            <div class="skill-tag-cloud">
+              <span class="skill-pill">MS Word</span>
+              <span class="skill-pill">MS Excel</span>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: auto;">
+              Comfortable creating documentation, structured spreadsheets, formulas, and reporting deliverables.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         INTERNSHIPS & EXPERIENCE SECTION
+         ========================================================================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Exposure</span>
+          <h2 class="section-title">Internships & Experience</h2>
+          <p class="section-subtitle">
+            Hands-on internships, operational exposure, and industrial in-plant trainings undertaken during academic tenure.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- 1. Sparkout Tech Solutions -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Web Development Intern</h3>
+                  <div class="timeline-company">Sparkout Tech Solutions</div>
+                </div>
+                <span class="timeline-type-badge">Internship</span>
+              </div>
+              <p class="timeline-description">
+                Gained hands-on experience in <strong>front-end development</strong> and <strong>responsive web design</strong>, implementing structured user interfaces and ensuring cross-device compatibility.
+              </p>
+              <div style="margin-top: 0.75rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                <span class="badge-tech">Front-End Development</span>
+                <span class="badge-tech">Responsive Web Design</span>
+                <span class="badge-tech">HTML/CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. La Confianza Technologies -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Business Development Intern</h3>
+                  <div class="timeline-company">La Confianza Technologies</div>
+                </div>
+                <span class="timeline-type-badge">Internship</span>
+              </div>
+              <p class="timeline-description">
+                Worked on <strong>client communication</strong>, <strong>lead generation</strong>, and conducting <strong>online research</strong> to support business growth and development initiatives.
+              </p>
+              <div style="margin-top: 0.75rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                <span class="badge-tech">Client Communication</span>
+                <span class="badge-tech">Lead Generation</span>
+                <span class="badge-tech">Online Research</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Arrow Thought -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Process Associate</h3>
+                  <div class="timeline-company">Arrow Thought</div>
+                </div>
+                <span class="timeline-type-badge">Experience</span>
+              </div>
+              <p class="timeline-description">
+                Handled <strong>journal submissions</strong> and communicated <strong>status updates on time</strong>, maintaining operational timeliness and document workflow integrity.
+              </p>
+              <div style="margin-top: 0.75rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                <span class="badge-tech">Journal Submissions</span>
+                <span class="badge-tech">Status Tracking</span>
+                <span class="badge-tech">Workflow Operations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. InPlant Trainings -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">InPlant Trainings</h3>
+                  <div class="timeline-company">Industrial Technology Programs</div>
+                </div>
+                <span class="timeline-type-badge">InPlant Training</span>
+              </div>
+              <p class="timeline-description">
+                Gained practical exposure to <strong>Web Development</strong> and <strong>Full Stack Development</strong> through structured industrial visits and training sessions across respected tech firms:
+              </p>
+              <div class="inplant-grid">
+                <div class="inplant-company-chip">BrainerySpot Technology</div>
+                <div class="inplant-company-chip">NXTLogics Solutions</div>
+                <div class="inplant-company-chip">Nitroware Technology</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PROJECTS SECTION
+         ========================================================================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Academic & Technical Projects</h2>
+          <p class="section-subtitle">
+            Directly from resume: Demonstrating practical implementation in AI image detection, web applications, and embedded hardware.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai-ml">AI & Deep Learning</button>
+          <button class="filter-btn" data-filter="web-app">Web Applications</button>
+          <button class="filter-btn" data-filter="hardware-iot">Hardware & IoT</button>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: Chickpea Disease Detection -->
+          <article class="project-card" data-category="ai-ml">
+            <div class="project-header">
+              <span class="project-category-badge">AI / Deep Learning</span>
+              <div class="project-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="project-title">Chickpea Disease Detection (Hybrid Deep Learning)</h3>
+
+            <p class="project-desc">
+              A project using <strong>AI image detection</strong> designed to help agricultural workers and farmers identify plant diseases early, preventing crop loss and improving yield through timely intervention.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="badge-tech">AI Image Detection</span>
+              <span class="badge-tech">Hybrid Deep Learning</span>
+              <span class="badge-tech">Computer Vision</span>
+              <span class="badge-tech">Agriculture Tech</span>
+            </div>
+          </article>
+
+          <!-- Project 2: Bus Ticket Reservation System -->
+          <article class="project-card" data-category="web-app">
+            <div class="project-header">
+              <span class="project-category-badge">Web Application</span>
+              <div class="project-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <path d="M7 15h0M17 15h0"></path>
+                  <path d="M2 9h20"></path>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="project-title">Bus Ticket Reservation System</h3>
+
+            <p class="project-desc">
+              Developed a comprehensive bus booking application with intuitive <strong>seat booking</strong>, secure <strong>user login authentication</strong>, and flexible <strong>bus search functionality</strong> for seamless passenger reservations.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="badge-tech">Bus Search</span>
+              <span class="badge-tech">Seat Booking</span>
+              <span class="badge-tech">User Login</span>
+              <span class="badge-tech">Web Application</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Distance Measurement System -->
+          <article class="project-card" data-category="hardware-iot">
+            <div class="project-header">
+              <span class="project-category-badge">Hardware & IoT</span>
+              <div class="project-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="project-title">Distance Measurement System</h3>
+
+            <p class="project-desc">
+              Built a hardware-integrated system using <strong>Arduino</strong> and an <strong>ultrasonic sensor</strong> that accurately measures object distance in real time and displays dynamic readings on an LCD screen.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="badge-tech">Arduino</span>
+              <span class="badge-tech">Ultrasonic Sensor</span>
+              <span class="badge-tech">LCD Display</span>
+              <span class="badge-tech">Real-Time Embedded</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         EDUCATION SECTION
+         ========================================================================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">
+            Formal engineering and school education qualifications.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <!-- College Degree -->
+          <div class="education-card">
+            <span class="education-badge">May 2026</span>
+            <h3 class="education-degree">B.E. Computer Science and Engineering</h3>
+            <div class="education-school">Jaishriram Engineering College</div>
+            <div class="education-location">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Tirupur, Tamil Nadu</span>
+            </div>
+            <div style="margin-top: 1.25rem;">
+              <span class="badge badge-fresher">Currently Pursuing • Final Stage Candidate</span>
+            </div>
+          </div>
+
+          <!-- Schooling -->
+          <div class="education-card">
+            <span class="education-badge">Schooling</span>
+            <h3 class="education-degree">HSC & SSLC</h3>
+            <div class="education-school">Gandhi Vidhyalaya Matriculation School</div>
+            <div class="education-location">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Tirupur, Tamil Nadu</span>
+            </div>
+            <ul class="education-sublist">
+              <li class="education-sublist-item">
+                <span>Higher Secondary Certificate (HSC)</span>
+                <span class="education-sublist-year">2022</span>
+              </li>
+              <li class="education-sublist-item">
+                <span>Secondary School Leaving Certificate (SSLC)</span>
+                <span class="education-sublist-year">2020</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         CERTIFICATIONS & WORKSHOPS SECTION
+         ========================================================================= -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Learning & Credentials</span>
+          <h2 class="section-title">Certifications & Workshops</h2>
+          <p class="section-subtitle">
+            Specialized computing credentials and technical workshops attended to enhance industry knowledge.
+          </p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Diploma in Computer Applications -->
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 15l-2 5l9-13h-7l2-5l-9 13h7z"></path>
+              </svg>
+            </div>
+            <div class="cert-info">
+              <h4>Diploma in Computer Applications (DCA)</h4>
+              <div class="cert-issuer">Professional Certification</div>
+              <p class="cert-note">Comprehensive training in fundamental computer software, office productivity, and computer applications.</p>
+            </div>
+          </div>
+
+          <!-- Workshops: Cyber Security & 5G -->
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <div class="cert-info">
+              <h4>Cyber Security & 5G Technology</h4>
+              <div class="cert-issuer">Kongu Engineering College</div>
+              <p class="cert-note">Technical workshops focused on network security principles, threat awareness, and modern 5G telecommunication architectures.</p>
+            </div>
+          </div>
+
+          <!-- Workshops: React.js and Web Development -->
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <div class="cert-info">
+              <h4>React.js & Web Development</h4>
+              <div class="cert-issuer">Altalya Solutions</div>
+              <p class="cert-note">Practical workshop focusing on React components, modern state management, and full-fledged responsive web development practices.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formal Declaration Box -->
+        <div class="declaration-container">
+          <div class="declaration-box">
+            <div class="declaration-title">Professional Declaration</div>
+            <div class="declaration-text">
+              "I confirm that all the information mentioned above is accurate and genuine to the best of my Knowledge."
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         CONTACT SECTION
+         ========================================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Contact & Hiring</h2>
+          <p class="section-subtitle">
+            I am actively seeking fresher / entry-level opportunities. Feel free to download my resume or reach out directly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details & Resume Download -->
+          <div class="contact-info-panel">
+            
+            <!-- Email Item -->
+            <div class="contact-card-item">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <div class="contact-card-label">Email</div>
+                <a href="mailto:rsandhiya524@gmail.com" class="contact-card-val">rsandhiya524@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-copy="rsandhiya524@gmail.com" title="Copy email address">Copy</button>
+            </div>
+
+            <!-- Phone Item -->
+            <div class="contact-card-item">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <div class="contact-card-label">Phone</div>
+                <a href="tel:+919344561265" class="contact-card-val">+91 93445 61265</a>
+              </div>
+              <button class="copy-btn" data-copy="+919344561265" title="Copy phone number">Copy</button>
+            </div>
+
+            <!-- Location Item -->
+            <div class="contact-card-item">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <div class="contact-card-label">Location</div>
+                <div class="contact-card-val">Tirupur, Tamil Nadu, India</div>
+              </div>
+            </div>
+
+            <!-- LinkedIn & GitHub Cards -->
+            <div class="contact-card-item">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <div class="contact-card-label">LinkedIn</div>
+                <a href="https://www.linkedin.com/in/sandhiya-r" target="_blank" rel="noopener noreferrer" class="contact-card-val">Sandhiya R</a>
+              </div>
+            </div>
+
+            <div class="contact-card-item">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <div class="contact-card-label">GitHub</div>
+                <a href="https://github.com/sandhiya-manikam-2005" target="_blank" rel="noopener noreferrer" class="contact-card-val">sandhiya-manikam-2005</a>
+              </div>
+            </div>
+
+            <!-- Resume Download Box -->
+            <div class="contact-resume-banner">
+              <h4>Ready to Review My Resume?</h4>
+              <p>Download the official PDF resume with full academic credentials and experience details.</p>
+              <a href="assets/Sandhiya_R_Resume.pdf" download="Sandhiya_R_Resume.pdf" class="btn btn-primary" id="contact-download-resume">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download Official Resume (PDF)</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Right: Interactive Recruiter Contact Form -->
+          <div class="contact-form-panel">
+            <h3>Send a Message</h3>
+            <p>Recruiters, hiring managers, and collaborators are welcome to write directly:</p>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="sender-name" class="form-label">Your Name *</label>
+                <input type="text" id="sender-name" class="form-input" placeholder="e.g. Recruiter / Hiring Lead" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-email" class="form-label">Your Email *</label>
+                <input type="email" id="sender-email" class="form-input" placeholder="name@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject" class="form-label">Subject</label>
+                <input type="text" id="sender-subject" class="form-input" placeholder="Job Opportunity / Interview Invitation / Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message" class="form-label">Message *</label>
+                <textarea id="sender-message" class="form-textarea" placeholder="Hello Sandhiya, we reviewed your profile and would love to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Send Message to Sandhiya</span>
+              </button>
+
+              <div id="form-feedback" class="form-feedback"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-container">
+        <div>
+          <div class="footer-brand">Sandhiya R</div>
+          <div class="footer-sub">B.E. Computer Science and Engineering • Fresher Portfolio</div>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Sandhiya R. All information authentic to resume.</div>
+        <button id="back-to-top" class="back-to-top-btn" title="Back to top">
+          <span>Back to Top</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification element -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
