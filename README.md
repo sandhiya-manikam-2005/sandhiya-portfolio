@@ -26,7 +26,7 @@ sandhiya-portfolio/
 ## ✨ Features Included
 
 1. **Fresher / Entry-Level Presentation:**
-   - Clearly positioned as a **Class of 2026 B.E. Computer Science and Engineering** student from Jaishriram Engineering College, Tirupur.
+   - Clearly positioned as a **2026 B.E. Computer Science and Engineering graduate** from Jaishriram Engineering College, Tirupur.
    - Genuine career objective highlighting hands-on fluency in AI tools (ChatGPT, Gemini, Claude), prompt engineering, and web development.
 
 2. **Sections Based Directly on the Resume:**
